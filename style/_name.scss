@@ -1,0 +1,31 @@
+.name {
+    height: 20%;
+    text-align: center;
+
+    p {
+        color: $primary-color;
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+    .first-name {
+            color: $secundary-color;
+            font-size: 50px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+    }
+    .last-name {
+        color: $primary-color;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    
+
+    .line {
+        background-color: $secundary-color;
+        height: 0.2em;
+        width: 18em;
+        margin: auto;
+        margin-bottom: 0.7em;
+    }
+}

@@ -1,0 +1,23 @@
+.contact {    
+    h3 {
+        margin: 20px;        
+    }
+    //display: block;
+    color: $primary-color;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    input, textarea{
+        //width: 100%;
+        display: block;
+        margin: auto;
+        width: 80%;
+        margin-top: 15px;
+    }
+    button {
+        margin: 20px 50px;
+        width: 30%;
+    }&:any-link {
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9), 0px 30px 20px -20px black;
+    }        
+}

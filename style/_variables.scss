@@ -1,0 +1,33 @@
+$bg-color: #fcf8ec;
+$primary-color: #456268;
+$secundary-color: #79a3b1;
+$little-color: #d0e8f2;
+
+%main-right {
+    h3 {
+        color: $primary-color;
+        font-size: 1.7em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-top: solid $secundary-color 0.2em;
+        border-bottom: solid $secundary-color 0.2em;
+    }
+    .titulo {
+        font-weight: bold;
+    }
+    h4 {
+        margin-top: 1em;
+        color: $primary-color;
+        font-size: 1.3em;
+    }
+    p {
+        color: $primary-color;
+        line-height: 1.5em;
+    }
+    padding-bottom: 1.5em;
+}
+
+// Mixin que usaremos en el proyecto
+@mixin borde ($color) { 
+    border: 2px solid $color;
+}

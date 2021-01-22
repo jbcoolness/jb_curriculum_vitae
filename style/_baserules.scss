@@ -1,0 +1,35 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+} 
+
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;    
+
+    
+} 
+
+/*
+.container {
+    @include borde (blue);
+}
+
+.header {
+    @include borde (red);
+}
+
+.nav {
+    @include borde (yellow);
+}
+
+.section-left {
+    @include borde (green);
+}
+
+.section-right {
+    @include borde (rgb(2, 57, 59));
+}
+*/

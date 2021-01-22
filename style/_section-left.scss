@@ -1,0 +1,25 @@
+.section-left {    
+    float: left;
+    width: 25%;        
+
+    .pic {
+        text-align: center;
+        background-image: url('../img/jb.png');            
+        background-size: contain;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+        height: 30vh;
+        border-radius: 10em;
+    }
+
+    #perfil {
+        p {
+            color: $primary-color;
+            font-size: 18px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            line-height: 25px;
+        }
+    }
+}

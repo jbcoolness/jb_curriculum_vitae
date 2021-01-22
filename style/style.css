@@ -1,0 +1,243 @@
+.estudios, .experiencia {
+  padding-bottom: 1.5em;
+}
+
+.estudios h3, .experiencia h3 {
+  color: #456268;
+  font-size: 1.7em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-top: solid #79a3b1 0.2em;
+  border-bottom: solid #79a3b1 0.2em;
+}
+
+.estudios .titulo, .experiencia .titulo {
+  font-weight: bold;
+}
+
+.estudios h4, .experiencia h4 {
+  margin-top: 1em;
+  color: #456268;
+  font-size: 1.3em;
+}
+
+.estudios p, .experiencia p {
+  color: #456268;
+  line-height: 1.5em;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*
+.container {
+    @include borde (blue);
+}
+
+.header {
+    @include borde (red);
+}
+
+.nav {
+    @include borde (yellow);
+}
+
+.section-left {
+    @include borde (green);
+}
+
+.section-right {
+    @include borde (rgb(2, 57, 59));
+}
+*/
+.container {
+  width: 100%;
+  height: 100%;
+  background: #fcf8ec;
+}
+
+.section-left {
+  float: left;
+  width: 25%;
+}
+
+.section-left .pic {
+  text-align: center;
+  background-image: url("../img/jb.png");
+  background-size: contain;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 30vh;
+  border-radius: 10em;
+}
+
+.section-left #perfil p {
+  color: #456268;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+.name {
+  height: 20%;
+  text-align: center;
+}
+
+.name p {
+  color: #456268;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.name .first-name {
+  color: #79a3b1;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.name .last-name {
+  color: #456268;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.name .line {
+  background-color: #79a3b1;
+  height: 0.2em;
+  width: 18em;
+  margin: auto;
+  margin-bottom: 0.7em;
+}
+
+.section-rigth {
+  float: right;
+  width: 75%;
+}
+
+.header {
+  width: 100%;
+}
+
+.header .social {
+  float: left;
+  height: 100%;
+  width: 30%;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.header .social i {
+  width: 100%;
+  font-size: 1.5em;
+  color: #79a3b1;
+  margin-right: 3em;
+  margin-bottom: 1.5em;
+}
+
+.header .social a {
+  width: 100%;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.header .skills {
+  width: 60%;
+  height: 100%;
+  margin-top: 1em;
+  float: right;
+  margin-bottom: 0.5em;
+}
+
+.header .skills label {
+  width: 100%;
+  display: inline;
+  font-size: 1em;
+  padding-right: 10px;
+  margin-top: 0.5em;
+  color: #456268;
+  font-weight: bold;
+}
+
+.header .skills progress {
+  width: 90%;
+  font-size: 1.5rem;
+  margin-bottom: 0.3em;
+  display: block;
+}
+
+.main-rigth {
+  width: 70%;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.nav a {
+  width: auto;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.contact {
+  color: #456268;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.contact h3 {
+  margin: 20px;
+}
+
+.contact input, .contact textarea {
+  display: block;
+  margin: auto;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.contact button {
+  margin: 20px 50px;
+  width: 30%;
+}
+
+.contact:-webkit-any-link {
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9), 0px 30px 20px -20px black;
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9), 0px 30px 20px -20px black;
+}
+
+.contact:-moz-any-link {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9), 0px 30px 20px -20px black;
+}
+
+.contact:any-link {
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9), 0px 30px 20px -20px black;
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9), 0px 30px 20px -20px black;
+}
+/*# sourceMappingURL=style.css.map */
